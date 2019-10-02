@@ -1,0 +1,33 @@
+df = train_test
+df.所在地[df.所在地.str.contains('中央区')] = 59
+df.所在地[df.所在地.str.contains('千代田区')]=58
+df.所在地[df.所在地.str.contains('港区')]=57
+df.所在地[df.所在地.str.contains('渋谷区')]=56
+df.所在地[df.所在地.str.contains('新宿区')]=55
+df.所在地[df.所在地.str.contains('豊島区')]=54
+df.所在地[df.所在地.str.contains('台東区')]=53
+df.所在地[df.所在地.str.contains('文京区')]=52
+df.所在地[df.所在地.str.contains('武蔵野区')]=51
+df.所在地[df.所在地.str.contains('目黒区')]=50
+
+df.所在地[df.所在地.str.contains('品川区')] = 49
+df.所在地[df.所在地.str.contains('中野区')]=48
+df.所在地[df.所在地.str.contains('世田谷区')]=47
+df.所在地[df.所在地.str.contains('杉並区')]=46
+df.所在地[df.所在地.str.contains('北区')]=45
+df.所在地[df.所在地.str.contains('荒川区')]=44
+df.所在地[df.所在地.str.contains('立川区')]=43
+df.所在地[df.所在地.str.contains('江東区')]=42
+df.所在地[df.所在地.str.contains('墨田区')]=41
+df.所在地[df.所在地.str.contains('三鷹市')]=40
+
+df.所在地[df.所在地.str.contains('品川区')] = 39
+df.所在地[df.所在地.str.contains('中野区')]=38
+df.所在地[df.所在地.str.contains('世田谷区')]=37
+df.所在地[df.所在地.str.contains('杉並区')]=36
+df.所在地[df.所在地.str.contains('北区')]=35
+df.所在地[df.所在地.str.contains('荒川区')]=34
+df.所在地[df.所在地.str.contains('立川区')]=33
+df.所在地[df.所在地.str.contains('江東区')]=32
+df.所在地[df.所在地.str.contains('墨田区')]=31
+df.所在地[df.所在地.str.contains('三鷹市')]=30
